@@ -1,0 +1,54 @@
+{
+    "name": "VMCRecKeyMap",
+    "maps": [
+        {
+            "name": "Recorder",
+            "id": "fe538ddc-d991-4c42-a0fa-eeac7d5ebdaa",
+            "actions": [
+                {
+                    "name": "RecordStart",
+                    "type": "Button",
+                    "id": "73b6c1a3-ec2b-4c93-bb10-757bfc682893",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RecordStop",
+                    "type": "Button",
+                    "id": "aa053e2a-1877-4793-b6dd-a0dc87104cec",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "83eebe94-9795-43a9-be3b-a3918f28da3a",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RecordStart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "96fb8d2a-4ef3-4537-a498-02f7eadd9d24",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RecordStop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
